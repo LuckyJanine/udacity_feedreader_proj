@@ -95,7 +95,7 @@ $(function() {
 
     describe('Initial Entries', function(){
 
-        let feed_container = $('.feed-list');
+        let feed_container = $('.feed');
 
         /* TODO: Write a test that ensures when the loadFeed
          * function is called and completes its work, there is at least
