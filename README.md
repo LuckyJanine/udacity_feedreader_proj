@@ -9,7 +9,7 @@ This is a test suite for a project which is a web-based application that reads R
 ## Built with
 * Javascript/ object-oriented programming
 
-## testing by 
+## tested by 
 * Jasmine
 
 
