@@ -87,8 +87,6 @@ $(function() {
 
     describe('Initial Entries', function(){
 
-        let feed_container = $('.feed');
-
         /* a test that ensures when the loadFeed
          * function is called and completes its work, there is at least
          * a single .entry element within the .feed container.
@@ -103,7 +101,7 @@ $(function() {
         });
 
         it('at least one entry in feed', function(done){
-            expect(feed_container.length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
             done();
         });
         
